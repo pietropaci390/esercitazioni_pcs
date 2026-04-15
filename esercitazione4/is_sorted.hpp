@@ -4,12 +4,11 @@
 
 
 template <typename T>
-int is_sorted(std::vector<T>& vec)
+bool is_sorted(std::vector<T>& vec)
 {
-    if(vec.size() == 0)
+    if(vec.size() <=1)
     {
-        std::cout<< "Il vettore di lunghezza zero è ordinato per definizione";
-        return EXIT_SUCCESS;
+        return true;
     }
 
     else 
@@ -20,10 +19,10 @@ int is_sorted(std::vector<T>& vec)
             if (vec[j]>vec[j+1])
             {
                 //std::cout<< "Errore: il vettore non è ordinato";
-                return EXIT_FAILURE;
+                return false;
             }
         }
         //std::cout<< "Il vettore è ordinato ";
-        return EXIT_SUCCESS;
+        return true;
     }
 }

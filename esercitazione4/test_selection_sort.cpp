@@ -30,7 +30,26 @@ int main()
         //print_vector(vec);
 
 
-        is_sorted(vec);
+        bool flag = is_sorted(vec);
+        if (!flag)
+        {
+            std::cout<<"Errore di ordinamento";
+            return EXIT_FAILURE;
+        }
+
     }
-    return 0;
+
+    std::vector<std::string> stringa = {"vasto","fossacesia","sanvito","ortona","pescara","silvi","pineto","roseto","giulianova","martinsicuro"};
+    selection_sort(stringa);
+    //print_vector(stringa);
+    bool flag = is_sorted(stringa);
+    if (!flag)
+    {
+        std::cout<<"Errore di ordinamento";
+        return EXIT_FAILURE;
+    }
+    std::cout<<"Tutto ordinato";
+    return EXIT_SUCCESS;
+
 }
+
