@@ -12,13 +12,13 @@ add_executable(measure_sorts ${SRC_test_sorts})
 
 
 add_executable(test_bubblesort test_bubble_sort.cpp)
-add_test(NAME bubblesort COMMAND test_bubble_sort)
+add_test(NAME bubblesort COMMAND test_bubblesort)
 
 add_executable(test_insertionsort test_insertion_sort.cpp)
-add_test(NAME insertionsort COMMAND test_insertion_sort)
+add_test(NAME insertionsort COMMAND test_insertionsort)
 
 
 add_executable(test_selectionsort test_selection_sort.cpp)
-add_test(NAME selectionsort COMMAND test_selection_sort)
+add_test(NAME selectionsort COMMAND test_selectionsort)
 
 enable_testing()

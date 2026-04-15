@@ -8,9 +8,13 @@ template<typename T>
 
 void bubble_sort(std::vector<T>& vec)
 {
-    for (size_t i = 1; i<vec.size()-1; i++)
+    if(vec.size()<2)
     {
-        for (size_t j = vec.size(); j >= i; j--)
+        return;
+    }
+    for (size_t i = 0; i<vec.size()-1; i++)
+    {
+        for (size_t j = vec.size()-1; j > i; j--)
         {
             if (vec[j]<vec[j-1])
             {   
@@ -24,7 +28,12 @@ void bubble_sort(std::vector<T>& vec)
 
 template<typename T>
 void insertion_sort(std::vector<T>& vec)
-{
+{   
+    
+    if(vec.size()<2)
+    {
+        return;
+    }
     for (size_t j = 1; j<vec.size(); j++)
     {
         T key = vec[j];
@@ -40,7 +49,12 @@ void insertion_sort(std::vector<T>& vec)
 
 template<typename T>
 void selection_sort(std::vector<T>& vec)
-{
+{   
+    
+    if(vec.size()<2)
+    {
+        return;
+    }
     for ( size_t i = 0; i<vec.size()-1; i++)
     {
         int min = i;
