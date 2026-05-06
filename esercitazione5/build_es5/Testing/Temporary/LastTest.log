@@ -1,0 +1,99 @@
+Start testing: May 06 12:02 UTC
+----------------------------------------------------------
+1/6 Testing: bubblesort
+1/6 Test: bubblesort
+Command: "/home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5/test_bubblesort"
+Directory: /home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5
+"bubblesort" start time: May 06 12:02 UTC
+Output:
+----------------------------------------------------------
+Tutto ordinato
+<end of output>
+Test time =  14.57 sec
+----------------------------------------------------------
+Test Passed.
+"bubblesort" end time: May 06 12:02 UTC
+"bubblesort" time elapsed: 00:00:14
+----------------------------------------------------------
+
+2/6 Testing: insertionsort
+2/6 Test: insertionsort
+Command: "/home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5/test_insertionsort"
+Directory: /home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5
+"insertionsort" start time: May 06 12:02 UTC
+Output:
+----------------------------------------------------------
+Tutto ordinato
+<end of output>
+Test time =   4.89 sec
+----------------------------------------------------------
+Test Passed.
+"insertionsort" end time: May 06 12:02 UTC
+"insertionsort" time elapsed: 00:00:04
+----------------------------------------------------------
+
+3/6 Testing: selectionsort
+3/6 Test: selectionsort
+Command: "/home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5/test_selectionsort"
+Directory: /home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5
+"selectionsort" start time: May 06 12:02 UTC
+Output:
+----------------------------------------------------------
+Tutto ordinato
+<end of output>
+Test time =   6.28 sec
+----------------------------------------------------------
+Test Passed.
+"selectionsort" end time: May 06 12:02 UTC
+"selectionsort" time elapsed: 00:00:06
+----------------------------------------------------------
+
+4/6 Testing: mergesort
+4/6 Test: mergesort
+Command: "/home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5/test_mergesort"
+Directory: /home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5
+"mergesort" start time: May 06 12:02 UTC
+Output:
+----------------------------------------------------------
+Tutto ordinato
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"mergesort" end time: May 06 12:02 UTC
+"mergesort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: quicksort
+5/6 Test: quicksort
+Command: "/home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5/test_quicksort"
+Directory: /home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5
+"quicksort" start time: May 06 12:02 UTC
+Output:
+----------------------------------------------------------
+Tutto ordinato
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"quicksort" end time: May 06 12:02 UTC
+"quicksort" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: quickottimo
+6/6 Test: quickottimo
+Command: "/home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5/test_quickottimo"
+Directory: /home/pcsdocker/Data/esercitazioni_pcs/esercitazione5/build_es5
+"quickottimo" start time: May 06 12:02 UTC
+Output:
+----------------------------------------------------------
+Tutto ordinato
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"quickottimo" end time: May 06 12:02 UTC
+"quickottimo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 06 12:02 UTC

@@ -1,0 +1,6 @@
+Dai test emerge che le prestazioni dipendono molto sia dalla dimensione dei vettori sia dalla modalità di compilazione. Per vettori di grandi dimensioni, Quicksort conferma il vantaggio teorico della complessità O(n log n) rispetto a quelli quadratici, mentre sui vettori piccolo gli algoritmi più semplici sono competitivi. 
+Tra gli algoritmi quadratici, l'Insertion Sort è il più efficiente, superando spesso anche Quicksort fino a vettori di circa 20 elementi. 
+Mergesort, pur avendo complessità O(n log n), è meno competitivo su vettori piccoli, probabilmente a causa della fase di merge, in cui crea vettori temporanei all'interno dei quali copia le parti da fondere.
+Il confronto tra debug e release mostra evidenti differenze: in debug i tempi sono mediamente più alti e standard sort si colloca subito dopo quicksort e quicksort ottimizzato. 
+In release Standard Sort migliora molto, anche se non è nettamente il migliore: spesso se la gioca con Quicksort, Quicksort ottimo e Insertion sort.
+Infine, è necessario osservare che i tempi di esecuzione sono soggetti a rumore di misurazione, infatti talvolta capita che quicksort risulti leggermente più veloce di quicksort ottimizzato.
